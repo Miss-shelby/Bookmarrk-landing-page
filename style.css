@@ -1,5 +1,6 @@
 @media (max-width:475px) {
     .innerContainer{
+        width: 80%;
         max-width: 475px;
         margin: 0 auto;
     }
@@ -122,20 +123,20 @@
     .features-heading {
         flex-direction: column;
         align-items: center;
-        font-size: 15px;
+        font-size: 18px;
         justify-content: center;
 
     }
 
     .features-container {
-        width: 70%;
+        width: 90%;
     }
     .progress-container{
         display: none;
     }
     .progress-bars {
         display: block;
-        width: 60%;
+        width: 70%;
         margin: 10px 0;
         height: 5px;
         background-color: hsl(0, 94%, 66%);
@@ -219,6 +220,9 @@
     .contact-btn {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .contact-info {
+        letter-spacing: 4px;
     }
 
     .footer-container {
