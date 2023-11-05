@@ -1,0 +1,243 @@
+@media (max-width:475px) {
+    .innerContainer{
+        max-width: 475px;
+        margin: 0 auto;
+    }
+    .nav{
+        display: none;
+        position: relative;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 2em 1em;
+    }
+    .nav-mobile{
+        display: none;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 200;
+        padding-top: 30px ;
+        max-width: 32rem;
+        background:linear-gradient(hsl(231, 100%, 30%),hsl(230, 34%, 75%));
+        background-repeat: no-repeat;
+        opacity: 95%;
+        animation-name: grow;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        /* animation-delay: 2s; */
+        color: white;
+    }
+    @keyframes grow {
+        0%{width:0}
+        100%{width: 100%;}
+    }
+    .border{
+        width: 100%;
+        margin: 1em 0;
+    }
+    
+    .nav-links{
+        flex-direction: column;
+        color: #fff;
+        align-items: center;
+        font-size: 1.4em;
+        list-style: none;
+    }
+    .nav-links > li{
+        list-style: none;
+    }
+    
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .center-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-login{
+        background-color: transparent;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        width: 80%;
+        font-size: 1.2em;
+        margin: 2em 0 5em 0 ;
+    }
+    .footer-icons {
+         display: flex;
+         align-items: center;
+        justify-content: center;
+    }
+    .about {
+        flex-direction: column-reverse;
+        align-content: center;
+        
+    }
+
+    .svg-image {
+        width: 100%;
+    }
+    .svg-img{
+        max-width: 400px;
+        max-height: 400px;
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .btn-chrome {
+        margin-right: 25px;
+        width: 45%;
+    }
+    .btn-firefox{
+        width: 45%;
+    }
+
+    .features-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .aims {
+        width: 100%;
+        text-align: center;
+    }
+
+    .features-heading {
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        justify-content: center;
+
+    }
+
+    .features-container {
+        width: 70%;
+    }
+    .progress-container{
+        display: none;
+    }
+    .progress-bars {
+        display: block;
+        width: 60%;
+        margin: 10px 0;
+        height: 5px;
+        background-color: hsl(0, 94%, 66%);
+        border-radius: 5px;
+    }
+    .easy{
+        margin-top:10px;
+    }
+    .bookmark{
+        flex-direction: column;
+    }
+    .bookmark-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bookmark-btn {
+        display: none;
+    }
+
+    .extension {
+        text-align: center;
+    }
+    .extension-btn {
+        padding: 8px 30px;
+
+    }
+    .extension-image {
+        flex-direction: column;
+    }
+
+    .Firefox {
+        margin: 20px 0;
+    }
+
+    .opera {
+        margin: 0;
+    }
+
+    .chrome,
+    .Firefox,
+    .opera {
+        padding: 1.5em;
+        box-shadow: 20px 30px 50px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        height: 300px;
+    }
+
+    .bg-dots {
+        width: 100%;
+    }
+
+    .faqs {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .faqs-header {
+        font-size: 2em;
+        padding: 1.5em 0;
+        text-align: center;
+    }
+
+    .faqs-container {
+        width: 100%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    label input {
+        display: block;
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer-logo p {
+        padding: 10px 0;
+    }
+
+    .logo-img {
+        margin: 15px 0;
+    }
+}
